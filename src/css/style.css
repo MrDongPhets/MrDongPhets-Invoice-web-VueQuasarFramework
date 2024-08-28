@@ -1,0 +1,247 @@
+.navbar{
+    position: fixed;
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+    background-color: #f8f8f8;
+    z-index: 999;
+  }
+  .menu-icon{
+    display: none;
+  }
+  .logo-nav{
+    display: flex;
+    align-items: center;
+  }
+.logo{
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+  .navbar .menubar{
+    position: absolute;
+    width: 400px;
+    right: 0%;
+   
+  }
+     .image{
+      margin-top: 10%;
+      width: 650px;
+      height: 300px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+     }
+      .image img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+      }
+  
+      .home{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 700px;
+        background-image: url(src/assets/background.jpg);
+        background-size: cover;
+        gap: 100px;
+      }
+    .welcome{
+      width: 500px;
+      margin-top: 5%;
+     
+    } 
+    .welcome div{
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      color: #00a2ff;
+    }
+  
+    .welcome div h1{
+      color: #027fc7;
+    }
+    .bg-light {
+      background-color: #f5f5f5;
+    }
+    .bg-primary {
+      background-color: #007bff;
+    }
+  
+    .navigation q-btn {
+      margin: 0 10px;
+    }
+    .section {
+      padding: 40px 0;
+    }
+    .about {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #dbdbdb;
+      min-height: 700px;
+      gap: 20px;
+    }
+  
+    .image-about{
+      padding: 20px;
+      width: 700px;
+      min-height: 300px;
+      text-align: center;
+    }
+  
+    .image-about img{
+     margin-top: 20%;
+    }
+  
+    .info-about{
+      width: 500px;
+      padding: 50px;
+      margin-top: 2%;
+   
+    
+    }
+  
+    .info-about h2{
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 70px;
+      color: #7191fc;
+    
+    }
+    .products {
+      background-color: #f4f6f8;
+      width: 100%;
+      min-height: 700px;
+      text-align: center;
+      background-image: url(src/assets/background.jpg);
+      background-size: cover;
+    }
+    .products-card{
+      padding: 10px;
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      
+    }
+  
+   .card{
+  width: 300px;
+    
+    }
+    .card .margin-card{
+      margin-left: 10%;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      border-radius: 50px;
+    }
+    .button-card{
+      margin-left: 26%;
+      padding-bottom:  8%;
+    }
+    .reviews {
+      width: 100%;
+      background-size: cover;
+      min-height: 400px;
+      background-image: url(src/assets/background2.jpg);
+    }
+  
+    .carousel-bg{
+      background: linear-gradient(to bottom, #58caff, #ffffff);
+    }
+  
+    .carousel{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      width: 100%;
+      margin-top: -4%;
+    
+    }
+  
+    .review-card{
+      width: 250px;
+      background-color: #f7f5f5;
+      text-align: center;
+      padding: 20px;
+      border-radius: 20px;
+      margin-top: 6%;
+      height: 400px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      
+    }
+
+    .review-body{
+        margin-top: 5%;
+    }
+  .image1{
+      width: 130px;
+      height: 130px;
+      background-color: #006faf;
+      margin-left: 20%;
+      margin-top: -80px;
+      border-radius: 50%;
+  
+  
+    }
+  
+   .image1 .person-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+      background-color: #006faf;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      border-radius: 50%;
+     
+    }
+
+  
+    .my-card {
+      max-width: 300px;
+      margin: auto;
+    }
+    .q-card-actions {
+      justify-content: center;
+    }
+
+    .footer{
+      padding: 20px;
+      background-color: #e7e7e7;
+      text-align: center;
+    }
+
+    @media (min-width: 360px) and (max-width: 500px) {
+
+      .navbar{
+        display: block;
+        overflow: hidden;
+      
+      }
+      .navbar .menubar{
+        display: block;
+        height: 100px;
+        width: 1px;
+        left: 0%;
+      
+      }
+      
+   
+      .active-style{
+        display: block;
+        height: 200px;
+        z-index: 999; 
+        
+      }
+ 
+      .menu-icon{
+        display: block;
+        position: absolute;
+        right: 0%;
+       
+      }
+
+
+      .welcome div h1{
+        font-size: 70px;
+      }
+    }
